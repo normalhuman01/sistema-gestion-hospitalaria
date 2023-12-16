@@ -1,0 +1,19 @@
+---- HTTP Methods ----
+GET Obtener algun recurso de la API
+POST Enviar datos a la API
+PUT Modificar un dato en la API
+DELETE Para eliminar algun recurso de la api
+
+
+--- Endpoints ---
+GET /doctors -> Obtener todos los doctores
+GET /doctors/{id} -> Obtener el doctor con ID {id} ||| /doctors/1 -> Obtener el doctor con ID 1
+GET /doctors/:id
+
+POST /doctors -> Agregar un nuevo doctor
+
+
+--- Clases ---
+Controller -> Esta clase se encarga de declara la lógica de los métodos HTTP
+Repository -> Interfaz que me provee los métodos a implementar para la comunicación con la BD
+Service -> Clase que implementa la interfaz Repository

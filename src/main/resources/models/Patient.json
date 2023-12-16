@@ -1,0 +1,16 @@
+{
+  "name": "Lucas",
+  "birthdate": "3/11/1998",
+  "sex": "M",
+  "phoneNumber": "946578312",
+  "address": "Main Street 123",
+  "email": "lucas_m@gmail.com",
+  "record": [{
+    "date": "3/10/2020",
+    "completedBy": "ObjectId",
+    "height": 180,
+    "weight": 64,
+    "diagnosis": "diagnosis",
+    "treatment": "treatment"
+  }]
+}
